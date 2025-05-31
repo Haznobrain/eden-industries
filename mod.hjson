@@ -1,0 +1,16 @@
+name: "eden-industries"
+displayName: "Eden Industries"
+subtitle: "now 99.9% holier! (trust)"
+description: "a planet with tech too advanced for the lower corporation called Hell Inc
+
+  this means higher intervention is needed, thus we send YOU to deal with them. 
+
+  All of your tech is IFU provided, do not disappoint or you will be executed.
+
+join the discord server for the tiny company: https: https://discord.gg/SUrhQKU2dw
+"
+  repo: Haznobrain/eden-industries
+  version: 3.33
+  minGameVersion: 147
+  hidden: true
+  authors: Haznobrain & Novanox4
