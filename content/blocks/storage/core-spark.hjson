@@ -5,3 +5,4 @@ buildVisibility: sandboxOnly
 description: Enemy core 1
 size: 4
 isFirstTier: true
+squareSprite: false
