@@ -1,6 +1,6 @@
 type: flying
 flying: true
-health: 250
+health: 300
 speed: 4
 buildSpeed: 2.25
 hitSize: 8
@@ -17,7 +17,7 @@ engineSize: 0
 groundLayer: 60
 weapons: [
 {
-  reload: 120
+  reload: 155
   shoot: {
       firstShotDelay: 45
       shots: 3
@@ -25,12 +25,13 @@ weapons: [
     }
   chargeSound: plasmadrop
   shootSound: laser
+  y: 0.25
   mirror: false
   bullet: {
     type: BasicBulletType
-    lifetime: 120
+    lifetime: 100
     speed: 6
-    accel: -0.2
+    accel: -0.15
     pierce: true
     pierceBuilding: true
     pierceCap: 999
@@ -39,14 +40,16 @@ weapons: [
     collidesTeam: true
     healPercent: 0.75
     healAmount: 15
-    healColor: e33d86
-    backColor: e33d86
+    healColor: 67a9fd
+    backColor: 67a9fd
     frontColor: ffffff
     inaccuracy: 3.25
-    height: 10
-    width: 12
+    height: 20
+    width: 22
     hitColor: e33d86
     chargeEffect: [lancerLaserCharge, lancerLaserChargeBegin]
+    damage: 30
+    buildingDamageMultiplier: 0.001
   }
 }
 ]
