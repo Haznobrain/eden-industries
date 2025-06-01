@@ -21,10 +21,11 @@ weapons: [
   rotates: true
   laserColor: e33d86
   healColor: e33d86
-  
   bullet: {
     type: BulletType
     maxRange: 45
+    }
+  }
 ]
 name: Anger
 description: Enemy core unit 1
