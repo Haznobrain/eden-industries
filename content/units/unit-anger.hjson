@@ -19,48 +19,34 @@ weapons: [
 {
   reload: 120
   shoot: {
-      firstShotDelay: 60
+      firstShotDelay: 45
       shots: 3
-      shotDelay: 3
+      shotDelay: 3.25
     }
-  chargeSound: pulse
+  chargeSound: plasmadrop
   shootSound: laser
   mirror: false
   bullet: {
     type: BasicBulletType
     lifetime: 120
-    speed: 5
-    accel: -0.1
+    speed: 6
+    accel: -0.2
     pierce: true
     pierceBuilding: true
     pierceCap: 999
-    recoil: 2.5
-    sprite: energy-spear
+    recoil: 1.85
+    sprite: eden-industries-energy-spear
     collidesTeam: true
     healPercent: 0.75
     healAmount: 15
     healColor: e33d86
     backColor: e33d86
     frontColor: ffffff
-    inaccuracy: 3
+    inaccuracy: 3.25
     height: 10
     width: 12
     hitColor: e33d86
-    chargeEffect: {
-      type: MultiEffectType
-      effects: [
-        {
-        type: WrapEffect
-        effect: lancerLaserCharge
-        color: e33d86
-        }
-        {
-        type: WrapEffect
-        effect: lancerLaserChargeBegin
-        color: e33d86
-        }
-      ]
-    }
+    chargeEffect: [lancerLaserCharge, lancerLaserChargeBegin]
   }
 }
 ]
