@@ -21,6 +21,7 @@ weapons: [
   rotates: true
   laserColor: e33d86
   healColor: e33d86
+  targetBuildings: true
   bullet: {
     type: BulletType
     maxRange: 45
