@@ -1,0 +1,30 @@
+type: flying
+flying: true
+health: 250
+speed: 4
+buildSpeed: 2.25
+hitSize: 8
+mineWalls: true
+mineFloor: true
+mineSpeed: 4
+mineTier: 3
+controller: BuilderAI
+defaultController: BuilderAI
+buildBeamOffset: 0
+fogRadius: 0
+itemCapacity: 125
+engineSize: 0
+groundLayer: 60
+weapons: [
+{
+  type: RepairBeamWeapon
+  rotates: true
+  laserColor: e33d86
+  healColor: e33d86
+  
+  bullet: {
+    type: BulletType
+    maxRange: 45
+]
+name: Anger
+description: Enemy core unit 1
