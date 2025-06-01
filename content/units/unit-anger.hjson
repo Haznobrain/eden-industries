@@ -30,3 +30,4 @@ weapons: [
 ]
 name: Anger
 description: Enemy core unit 1
+outlineColor: 060413
