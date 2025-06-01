@@ -26,7 +26,7 @@ weapons: [
   chargeSound: plasmadrop
   shootSound: laser
   y: 0.25
-  mirror: false
+  mirror: true
   bullet: {
     type: BasicBulletType
     lifetime: 100
