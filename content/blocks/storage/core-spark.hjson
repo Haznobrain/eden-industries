@@ -1,0 +1,7 @@
+type: CoreBlock
+name: "Core: Spark"
+health: 12500
+buildVisibility: sandboxOnly
+description: Enemy core 1
+size: 4
+isFirstTier: true
