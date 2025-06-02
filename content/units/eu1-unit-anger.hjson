@@ -21,7 +21,7 @@ weapons: [
   shoot: {
       firstShotDelay: 45
       shots: 4
-      shotDelay: 3.25
+      shotDelay: 2.75
     }
   chargeSound: plasmadrop
   shootSound: laser
@@ -54,11 +54,7 @@ weapons: [
     trailColor: 67a9fd
     trailLength: 1
     trailMinVelocity: 0
-    trailEffect: {
-      type: WrapEffect
-      effect: hitFuse
-      color: 67a9fd
-    }
+    trailEffect: hitFuse
   }
 }
 ]
@@ -71,6 +67,6 @@ engines: [
   x: 0
   y: -5
   radius: 1.75
-  rotation: 0
+  rotation: 90
 }
 ]
