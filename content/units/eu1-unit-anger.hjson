@@ -20,7 +20,7 @@ weapons: [
   reload: 155
   shoot: {
       firstShotDelay: 45
-      shots: 3
+      shots: 4
       shotDelay: 3.25
     }
   chargeSound: plasmadrop
@@ -29,9 +29,9 @@ weapons: [
   mirror: true
   bullet: {
     type: BasicBulletType
-    lifetime: 100
-    speed: 6
-    accel: -0.15
+    lifetime: 75
+    speed: 7
+    accel: -0.175
     pierce: true
     pierceBuilding: true
     pierceCap: 999
@@ -48,8 +48,15 @@ weapons: [
     width: 22
     hitColor: e33d86
     chargeEffect: [lancerLaserCharge, lancerLaserChargeBegin]
-    damage: 30
+    damage: 22.5
     buildingDamageMultiplier: 0.001
+    trailColor: 67a9fd
+    trailLength: 1
+    trailMinVelocity: 0.2
+    trailEffect: {
+      type: WrapEffect
+      effect: hitFuse
+      color: 67a9fd
   }
 }
 ]
@@ -61,7 +68,7 @@ engines: [
 {
   x: 0
   y: -5
-  radius: 1.25
-  rotation: 45
+  radius: 1.75
+  rotation: o
 }
 ]
