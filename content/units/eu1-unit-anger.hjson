@@ -37,6 +37,7 @@ weapons: [
     pierceCap: 999
     recoil: 1.85
     sprite: eden-industries-energy-spear
+    shrinkY: 0
     collidesTeam: true
     healPercent: 0.75
     healAmount: 15
@@ -52,7 +53,7 @@ weapons: [
     buildingDamageMultiplier: 0.001
     trailColor: 67a9fd
     trailLength: 1
-    trailMinVelocity: 0.2
+    trailMinVelocity: 0
     trailEffect: {
       type: WrapEffect
       effect: hitFuse
