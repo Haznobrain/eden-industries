@@ -56,4 +56,12 @@ weapons: [
 name: Anger
 description: Enemy core unit 1
 outlineColor: 060413
-chargeSound:
+chargeSound: plasmadrop
+engines: [
+{
+  x: 0
+  y: -5
+  radius: 1.25
+  rotation: 45
+}
+]
