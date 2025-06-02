@@ -57,6 +57,7 @@ weapons: [
       type: WrapEffect
       effect: hitFuse
       color: 67a9fd
+    }
   }
 }
 ]
