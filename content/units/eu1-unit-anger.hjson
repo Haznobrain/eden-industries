@@ -65,7 +65,7 @@ chargeSound: plasmadrop
 engines: [
 {
   x: 0
-  y: -5
+  y: -6.25
   radius: 1.75
   rotation: 90
 }
