@@ -1,0 +1,18 @@
+type: drill
+tier: 10
+drillTime: 120
+liquidBoostIntensity: 1.8
+rotateSpeed: 4
+consumes: {
+    liquids:{ 
+        liquids:[
+        l1-godlight/1
+    ]
+    optional: false
+    booster: false
+    }
+}
+requirements: [
+    copper/45
+    lead/40
+]
