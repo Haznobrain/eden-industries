@@ -21,7 +21,7 @@ shootType: {
   frontColor: e33d86
   speed: 5
   lifetime: 60
-  accel: 0.05
+  accel: 0.1
   damage: 100
   pierce: true
   pierceBuilding: true
