@@ -12,6 +12,7 @@ buildVisibility: sandboxOnly
 squareSprite: false
 reload: 100
 range: 500
+shootY: 5
 shootType: {
   type: BasicBulletType
   sprite: circle-bullet
@@ -26,7 +27,45 @@ shootType: {
   pierce: true
   pierceBuilding: true
   hitEffect: none
-  despawnEffect: none
+  despawnEffect: {
+    type: MultiEffect
+    effects: [
+      {
+      type: WaveEffect
+      colorTo: e33d86ff
+      sizeTo: 80 
+      strokeFrom: 5
+      }
+      {
+      type: WaveEffect
+      colorTo: e33d86ff
+      sizeTo: 75
+      strokeFrom: 4.5
+      sides: 6
+      }
+      {
+      type: WaveEffect
+      colorTo: e33d86ff
+      sizeTo: 70
+      strokeFrom: 4
+      sides: 5
+      }
+      {
+      type: WaveEffect
+      colorTo: e33d86ff
+      sizeTo: 65
+      strokeFrom: 3.5
+      sides: 4
+      }
+      {
+      type: WaveEffect
+      colorTo: e33d86ff
+      sizeTo: 60
+      strokeFrom: 3
+      sides: 3
+      }
+    ]
+  }
   shootEffect: none
   trailColor: e33d86
   trailLength: 40
@@ -47,7 +86,7 @@ shootType: {
     rotation: 45
     stroke: 5
     followRotation: true
-    rotMove: -45
+    rotMove: -60
     spinSpeed: 3
     }
     {
