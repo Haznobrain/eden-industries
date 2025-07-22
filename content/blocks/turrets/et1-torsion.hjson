@@ -63,6 +63,7 @@ shootType: {
     spinSpeed: 3
     }
   ]
+}
 outlineColor: 060413
 shootSound: pulseBlast
 consumes: {
