@@ -1,0 +1,13 @@
+type: ItemBridge
+size: 1
+health: 300
+range: 15
+pulse: true
+transportTime: 1
+arrowPeriod: 0.9
+arrowTimeScl: 2.75
+requirements: []
+category: distribution
+squareSprite: false
+buildVisibility: sandboxOnly
+name: Transfer Node
