@@ -11,4 +11,4 @@ category: distribution
 squareSprite: false
 buildVisibility: sandboxOnly
 name: Transfer Node
-bridgeWidth: 7.5
+bridgeWidth: 7.75
