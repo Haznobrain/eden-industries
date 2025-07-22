@@ -23,7 +23,7 @@ shootType: {
   speed: 5
   lifetime: 60
   accel: 0.1
-  damage: 100
+  damage: 400
   pierce: true
   pierceBuilding: true
   hitEffect: none
@@ -70,7 +70,7 @@ shootType: {
   trailColor: e33d86
   trailLength: 40
   trailWidth: 4
-  splashDamageRadius: 40
+  splashDamageRadius: 80
   splashDamage: 500
   scaledSplashDamage: true
   buildingDamageMultiplier: 0.1
