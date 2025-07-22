@@ -1,0 +1,38 @@
+type: PowerTurret
+name: Torsion
+description: Launches a giant energy bolt over large distances. Uses a lot of power.
+size: 5
+health: 4000
+drawer: {
+  type: DrawTurret
+  basePrefix: enemy-
+    }
+requirements: []
+buildVisibility: sandboxOnly
+squareSprite: false
+reload: 100
+range: 500
+shootType: {
+  type: BasicBulletType
+  sprite: circle-bullet
+  height: 8
+  width: 8
+  backColor: e33d86
+  frontColor: e33d86
+  speed: 5
+  lifetime: 60
+  drag: 0.1
+  damage: 100
+  pierce: true
+  pierceBuilding: true
+  hitEffect: none
+  despawnEffect: none
+  shootEffect: none
+  trailColor: e33d86
+  trailLength: 40
+  trailWidth: 4
+  splashDamageRadius: 40
+  splashDamage: 500
+  scaledSplashDamage: true
+  buildingDamageMultiplier: 0.1
+    }
