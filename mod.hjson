@@ -12,5 +12,6 @@ join the discord server for the tiny company: https: https://discord.gg/SUrhQKU2
   repo: Haznobrain/eden-industries
   version: 3.33
   minGameVersion: 147
-  hidden: true
+  //hey hidden means if you can use it in multiplayer
+  hidden: false
   authors: Haznobrain & Novanox4
